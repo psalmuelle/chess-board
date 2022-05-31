@@ -5,9 +5,9 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #282c34;
+    color: #61dafb;
 }
 header{
-    color: #61dafb;
     text-align: center;
     margin: 1rem;
     margin-top: 1rem;
@@ -16,11 +16,14 @@ table{
     margin: 0 auto;
     width: 48rem;
     height: 35rem;
-    border: 0.6rem solid rgb(231, 251, 255);
+    border: 0.6rem solid;
+    border-image:linear-gradient(to right, red, orange);
+    border-image-slice: 1;
+
     text-align: center;
-    border-radius: 5px;
+    
 }
-tr{
-    background: #000;
-   
+
+footer{
+    text-align: center;
 }
